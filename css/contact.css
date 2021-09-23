@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul , p {
+    margin-bottom: 0;
+}
+.i1 li{
+    display: none;
+}
+/* .drop li :hover  {
+    display: block;
+} */
+.bg-whitesmoke{
+    background-color: whitesmoke;
+}
+/* .button-shape{
+width: 13px !important; 
+height: 13px !important;
+
+} */
+/* #carouselExampleCaptions .carousel-indicators {
+    width: 13px !important;
+    height: 13px !important;
+}  */
+.image-height{
+    width: 90%;
+    height: 50%;
+}
+
+.icon-border{
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-color: white;
+    background-color: white;
+}
+
+.custom-div:hover .i-hover{
+color: blue;
+}
+
+
+
+/* .carousel-indicators{
+    width: 13px !important;
+    height: 13px !important;
+} */
+.carousel-indicators{
+    position: absolute;
+    left: auto !important;
+    flex-direction: column !important;
+    margin-right: 4%;
+    margin-bottom: 10rem ;
+  
+}
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+}
+.hr-width{
+    width: 20px;
+    padding-right: 4px;
+}
+.hr-height{
+    height: 4px !important;
+}
+.first-hr{
+    width: 50%;
+    margin-left: 50%;
+    
+}
+.color-blue{
+color: blue;
+opacity: 1;
+}
+.position-abs{
+    left: 6%;
+    top: 4%;
+}
+.image-height {
+    width: 90%;
+    height: 500px;}
+.background_img{
+    background-image: url(../images/interior-of-modern-office-room-3d-rendering-CJVSF2F-scaled.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+} 
+.overlay{
+   background-color: #000000a6
+}
+.color-white{
+    color: white;
+}
+.div-height{
+    height:150px ;
+}
+.span-hover span:hover {
+    color: blue;
+}
+.image-width{
+    width: 100%;
+}
+
+.custom-position-absolute{
+    
+    top: 100%;
+    height: 100%;
+    left: 0;
+    transition: .5s;
+    
+}
+
+.custom-div-hover:hover .custom-position-absolute{
+    top: 0;
+}
+.div-absolute{
+    top: 80%;
+    width: 100%;
+    left: 50px;
+    transition: 1s;
+    transform: scaleX(0);
+    
+}
+.div2-hover:hover .div-absolute{
+   transform: scaleX(1);
+  
+}
+.creative-team-absolute{
+    top:86% ;
+    width: 100%;
+    padding-bottom: 7%;
+
+}
+.creative-team-image{
+    display: block;
+    margin: auto;
+}
+.founder-border{
+    border-bottom:2px solid black;
+    width: 80%;
+    margin: auto;
+}
+.creative-div-hover:hover .creative-team-absolute{
+    top: 67%;
+    transition: 1s;
+
+}
+.creative-div-hover:hover .creative-team-absolute .founder-border{
+    border: 0;
+}
+.div-icons{
+    margin: auto;
+    top: 125%;
+    left: 12%;
+    transition-delay: 1s;
+    transition: 1.5s;
+    /*transform: translatey(85%);
+    -webkit-transform: translatey(85%);
+    -moz-transform: translatey(85%);
+    -ms-transform: translatey(85%);
+    -o-transform: translatey(85%);
+    */
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+.creative-div-hover:hover .creative-team-absolute .div-icons{
+    /* transition-delay: 3s; */
+    top: 101%;
+}
+.bgcolor-height{
+    height: 200px;
+}
+.padding-top{
+    padding-top: 70px;
+}
+.f-size{
+    font-size: 10px;
+}
+.latest-blog-img{
+    width: 100%;
+}
+.blog-firstimg:hover .blog-icons{
+    background-color: blue;
+}
+.blog-fisrtimg:hover img{
+    transform: rotate(20deg);
+
+}
